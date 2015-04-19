@@ -3,7 +3,9 @@ using System.Collections;
 
 public class Scroller : MonoBehaviour {
 
-    float speed = -2f;
+    float speed = -3f;
+
+	//float speed = 
 
 	void FixedUpdate () 
     {

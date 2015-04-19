@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour {
     {
 
         moving.x = moving.y = 0;
-
         //Keyboard
         if (Input.GetKey("right"))
         {

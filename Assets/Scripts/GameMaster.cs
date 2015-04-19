@@ -34,10 +34,12 @@ public class GameMaster : MonoBehaviour
     public UnityEngine.UI.Text playerRotation;
     public UnityEngine.UI.Text playerStatus;
     public UnityEngine.UI.Text DiePanelScore;
+	//public UnityEngine.UI.Text frames;
     public static bool playerIsAlive = true;
     public string playerState = "";
     public string playerPos = "";
     public string playerRot = "";
+	//public string frame = "";
 
     public static string playerName;
     public static string playerScore;
@@ -65,6 +67,7 @@ public class GameMaster : MonoBehaviour
         playerStatus.fontSize = 16;
         playerPosition.fontSize = 16;
         playerRotation.fontSize = 16;
+		//frames.fontSize = 16;
 
         // Assign debug items and death panel
         debugInfo = GameObject.Find("DebugInfo");
@@ -125,7 +128,8 @@ public class GameMaster : MonoBehaviour
         if (score)
         {
             score.text = "Score: " + currentScore;
-            
+			//frames.text = (1.0f / Time.smoothDeltaTime);        
+			
         }
 
         if (Input.GetKeyDown(KeyCode.Z))

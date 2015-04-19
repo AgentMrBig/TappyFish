@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BlueJelly : MonoBehaviour {
     public AudioClip attackSound;
-    float speed = -1f;
+    float speed = -2f;
     float swimSpeed = 0.5f;
     bool isAlive = true;
     bool swimUp = true;
