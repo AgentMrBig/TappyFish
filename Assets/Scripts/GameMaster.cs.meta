@@ -1,10 +1,16 @@
 fileFormatVersion: 2
 guid: f9d519c29d35ef5449fb7fecba019696
-timeCreated: 1428174602
+timeCreated: 1429570585
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - score: {instanceID: 0}
+  - playerPosition: {instanceID: 0}
+  - playerRotation: {instanceID: 0}
+  - playerStatus: {instanceID: 0}
+  - DiePanelScore: {instanceID: 0}
+  - dieMessage: {fileID: 174904, guid: ee200fc5e9eeb014fb156a582a74063f, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

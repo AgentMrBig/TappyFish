@@ -30,11 +30,11 @@ public class SubmitScore : MonoBehaviour {
         }
         else if (name.text == "")
         {
-            name.text = "Please input a name";
+            name.text = "Need Name";
         }
-        else if (name.text == "Please input a name")
+        else if (name.text == "Need Name")
         {
-            name.text = "I SAID PUT A NAME!";
+            name.text = "PUT NAME";
         }
         
     }

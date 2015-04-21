@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 94900cab6d72e874ca8e881c4dd4b7a5
+timeCreated: 1429468138
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DiePanel_0
+    21300002: DiePanel_1
+    21300004: DiePanel_2
+    21300006: DiePanel_3
+    21300008: DiePanel_4
+    21300010: DiePanel_5
+    21300012: DiePanel_6
+    21300014: DiePanel_7
+    21300016: DiePanel_8
+    21300018: DiePanel_9
+    21300020: DiePanel_10
+    21300022: DiePanel_11
+    21300024: DiePanel_12
+    21300026: DiePanel_13
+    21300028: DiePanel_14
+    21300030: DiePanel_15
+    21300032: DiePanel_16
+    21300034: DiePanel_17
+    21300036: DiePanel_18
+    21300038: DiePanel_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DiePanel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 182
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 183
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 182
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 70
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 167
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_8
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 154
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 154
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 154
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 135
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 129
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 129
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 129
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 103
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 103
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 103
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DiePanel_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 77
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

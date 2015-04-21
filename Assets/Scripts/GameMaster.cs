@@ -51,7 +51,7 @@ public class GameMaster : MonoBehaviour
 
     // Set at runtime in start() method. 
     GameObject debugInfo;
-    GameObject death;
+    GameObject diePanel;
     GameObject deadEye;
     // --- UI END --- 
 
@@ -71,9 +71,9 @@ public class GameMaster : MonoBehaviour
 
         // Assign debug items and death panel
         debugInfo = GameObject.Find("DebugInfo");
-        death = GameObject.Find("Death");
+        diePanel = GameObject.Find("DiePanel");
         deadEye = GameObject.Find("FishEyeDead");
-        death.SetActive(false);
+        diePanel.SetActive(false);
         deadEye.SetActive(false);
 
         // Assign initial player rot value
@@ -148,7 +148,7 @@ public class GameMaster : MonoBehaviour
 
     public void GiveDeadMessage()
     {
-        DiePanelScore.text = "Score: " + currentScore;
+        DiePanelScore.text = "" + currentScore;
         //Debug.Log("DEAD");
         // Adjust level music
         GameObject.FindGameObjectWithTag("GameMaster").GetComponent<AudioSource>().volume = Volume - 0.8f;
@@ -165,7 +165,7 @@ public class GameMaster : MonoBehaviour
 
         deathMsgExists = true;
 
-        death.SetActive(true);
+        diePanel.SetActive(true);
     }
 
     public static void Timer()

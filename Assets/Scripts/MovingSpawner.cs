@@ -45,13 +45,22 @@ public class MovingSpawner : MonoBehaviour {
     public int timeLoop = 0;
     public float randomTimer;
 
-    public Coin coin;
+    
     public BlueJelly blueJelly;
 	public RedJelly redjelly;
 	public GreenJelly greenjelly;
 	public PurpleJelly purplejelly;
 	public BlackJelly blackjelly;
 	public TopCoral topcoral;
+
+    // Pickups and Collectables
+    public Coin coin;
+    public GreenCrystal greenCrystal;
+    public BlueCrystal blueCrystal;
+    public ClearCrystal clearCrystal;
+    public YellowCrystal yellowCrystal;
+    public OrangeCrystal orangeCrystal;
+    public PinkCrystal pinkCrystal;
 
     public float travelSpeed = 6f;
 

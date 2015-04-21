@@ -1,0 +1,803 @@
+fileFormatVersion: 2
+guid: b1c6a968a85fc4d45b60e6951f6965b1
+timeCreated: 1429466882
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boxy_bold_font_4_0
+    21300002: boxy_bold_font_4_1
+    21300004: boxy_bold_font_4_2
+    21300006: boxy_bold_font_4_3
+    21300008: boxy_bold_font_4_4
+    21300010: boxy_bold_font_4_5
+    21300012: boxy_bold_font_4_6
+    21300014: boxy_bold_font_4_7
+    21300016: boxy_bold_font_4_8
+    21300018: boxy_bold_font_4_9
+    21300020: boxy_bold_font_4_10
+    21300022: boxy_bold_font_4_11
+    21300024: boxy_bold_font_4_12
+    21300026: boxy_bold_font_4_13
+    21300028: boxy_bold_font_4_14
+    21300030: boxy_bold_font_4_15
+    21300032: boxy_bold_font_4_16
+    21300034: boxy_bold_font_4_17
+    21300036: boxy_bold_font_4_18
+    21300038: boxy_bold_font_4_19
+    21300040: boxy_bold_font_4_20
+    21300042: boxy_bold_font_4_21
+    21300044: boxy_bold_font_4_22
+    21300046: boxy_bold_font_4_23
+    21300048: boxy_bold_font_4_24
+    21300050: boxy_bold_font_4_25
+    21300052: boxy_bold_font_4_26
+    21300054: boxy_bold_font_4_27
+    21300056: boxy_bold_font_4_28
+    21300058: boxy_bold_font_4_29
+    21300060: boxy_bold_font_4_30
+    21300062: boxy_bold_font_4_31
+    21300064: boxy_bold_font_4_32
+    21300066: boxy_bold_font_4_33
+    21300068: boxy_bold_font_4_34
+    21300070: boxy_bold_font_4_35
+    21300072: boxy_bold_font_4_36
+    21300074: boxy_bold_font_4_37
+    21300076: boxy_bold_font_4_38
+    21300078: boxy_bold_font_4_39
+    21300080: boxy_bold_font_4_40
+    21300082: boxy_bold_font_4_41
+    21300084: boxy_bold_font_4_42
+    21300086: boxy_bold_font_4_43
+    21300088: boxy_bold_font_4_44
+    21300090: boxy_bold_font_4_45
+    21300092: boxy_bold_font_4_46
+    21300094: boxy_bold_font_4_47
+    21300096: boxy_bold_font_4_48
+    21300098: boxy_bold_font_4_49
+    21300100: boxy_bold_font_4_50
+    21300102: boxy_bold_font_4_51
+    21300104: boxy_bold_font_4_52
+    21300106: boxy_bold_font_4_53
+    21300108: boxy_bold_font_4_54
+    21300110: boxy_bold_font_4_55
+    21300112: boxy_bold_font_4_56
+    21300114: boxy_bold_font_4_57
+    21300116: boxy_bold_font_4_58
+    21300118: boxy_bold_font_4_59
+    21300120: boxy_bold_font_4_60
+    21300122: boxy_bold_font_4_61
+    21300124: boxy_bold_font_4_62
+    21300126: boxy_bold_font_4_63
+    21300128: boxy_bold_font_4_64
+    21300130: boxy_bold_font_4_65
+    21300132: boxy_bold_font_4_66
+    21300134: boxy_bold_font_4_67
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boxy_bold_font_4_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 49
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 46
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 46
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 49
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 46
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 46
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 46
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 48
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 46
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 37
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 28
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_29
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_34
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_39
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 19
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_42
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_44
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 19
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_50
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_52
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_53
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_56
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_57
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_59
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_62
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_63
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_64
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_66
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boxy_bold_font_4_67
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 4
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
