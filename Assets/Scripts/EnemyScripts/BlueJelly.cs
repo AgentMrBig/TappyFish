@@ -24,8 +24,8 @@ public class BlueJelly : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         firstPos = transform.position;
-        topSwimLimit = firstPos.y + 3f;
-        bottomSwimLimit = firstPos.y - 3f;
+        topSwimLimit = firstPos.y + 1f;
+        bottomSwimLimit = firstPos.y - 1f;
 	
 	}
 	

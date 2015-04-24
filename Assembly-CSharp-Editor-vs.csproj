@@ -46,12 +46,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Editor\EditorDBManager.cs" />
+     <Compile Include="Assets\UnityVS\Editor\extension.cs" />
+     <Compile Include="Assets\UnityVS\Editor\window.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>C:/Users/Johnny/Downloads/TappyFishEHr2/Tappy Fish/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>C:/Users/Johnny/Downloads/TappyFishEHr2/Tappy Fish/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityVS.VersionSpecific">
+ <HintPath>C:/Users/Johnny/Downloads/TappyFishEHr2/Tappy Fish/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

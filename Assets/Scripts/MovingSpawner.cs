@@ -11,6 +11,8 @@ public class MovingSpawner : MonoBehaviour {
     private float duration = 1f;
 
 	private int wavetime = 600;
+	public int wavelength = 20; //******************Set the length of the wave in seconds[JC]
+
 	//private int spawnratebluejelly = 3;
 	//private int spawnratecoin = 1;
 
@@ -21,6 +23,9 @@ public class MovingSpawner : MonoBehaviour {
 	private int spawntimerpurplejelly = 900;
 	private int spawntimerblackjelly = 1200;
 	private int spawntimertopcoral = 75;
+	private int spawntimerfloor = 30;
+	private int spawntimercrystalgreen = 90;
+	private int spawntimerjellyswarm = 60;
 
 	private int spawntimercoinwave = 60;
 	private int spawntimerbluejellywave = 240;
@@ -29,6 +34,9 @@ public class MovingSpawner : MonoBehaviour {
 	private int spawntimerpurplejellywave = 660;
 	private int spawntimerblackjellywave = 780;
 	private int spawntimertopcoralwave = 75;
+	private int spawntimerfloorwave = 100;
+	private int spawntimercrystalgreenwave = 590;
+	private int spawntimerjellyswarmwave = 700;
 
 	private float spawnpositioncoin = 3;
 	private float spawnpositionbluejelly = 3;
@@ -37,30 +45,35 @@ public class MovingSpawner : MonoBehaviour {
 	private float spawnpositionpurplejelly = 3;
 	private float spawnpositionblackjelly = 3;
 	private float spawnpositiontopcoral = 6;
+	private float spawnpositionfloor = 0;
+	private float spawnpositioncrystalgreen = 3;
+	private float spawnpositionjellyswarm = 3;
 
 	//private 
 
     // Timer
-    public  float timeRemaining = 5f;
-    public int timeLoop = 0;
-    public float randomTimer;
-
+    private  float timeRemaining = 5f;
+    private int timeLoop = 0;
+    private float randomTimer;
     
-    public BlueJelly blueJelly;
-	public RedJelly redjelly;
-	public GreenJelly greenjelly;
-	public PurpleJelly purplejelly;
-	public BlackJelly blackjelly;
-	public TopCoral topcoral;
+    public Unit bluejelly;
+	public Unit redjelly;
+	public Unit greenjelly;
+	public Unit purplejelly;
+	public Unit blackjelly;
+	public Unit jellyswarm;
+	public Unit topcoral;
+	public Unit floor;
+	public Coin crystalgreen;
 
     // Pickups and Collectables
     public Coin coin;
-    public GreenCrystal greenCrystal;
-    public BlueCrystal blueCrystal;
-    public ClearCrystal clearCrystal;
-    public YellowCrystal yellowCrystal;
-    public OrangeCrystal orangeCrystal;
-    public PinkCrystal pinkCrystal;
+//    public GreenCrystal greenCrystal;
+//    public BlueCrystal blueCrystal;
+//    public ClearCrystal clearCrystal;
+//    public YellowCrystal yellowCrystal;
+//    public OrangeCrystal orangeCrystal;
+//    public PinkCrystal pinkCrystal;
 
     public float travelSpeed = 6f;
 
@@ -70,10 +83,11 @@ public class MovingSpawner : MonoBehaviour {
     void Start()
     {
         //spawnCoin();
+		wavelength = wavelength * 60;  //*******************Converts wavelength from frames to seconds [JC]
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         currentPos = transform.position;
         currentRot = transform.rotation;
@@ -85,7 +99,10 @@ public class MovingSpawner : MonoBehaviour {
 		spawntimergreenjelly = spawntimergreenjelly - 1;
 		spawntimerpurplejelly = spawntimerpurplejelly - 1;
 		spawntimerblackjelly = spawntimerblackjelly - 1;
+		spawntimerjellyswarm -= 1;
 		spawntimertopcoral = spawntimertopcoral - 1;
+		spawntimerfloor = spawntimerfloor - 1;
+		spawntimercrystalgreen -= 1;
 		wavetime = wavetime - 1;
 		//******************************************************Spawns Objects based on timer; assuming 60fps so 60 = spawn every 1 second [JC]
 
@@ -113,6 +130,37 @@ public class MovingSpawner : MonoBehaviour {
 			spawntimercoin = spawntimercoinwave;
 		}
 
+		if (spawntimercrystalgreen < 1) 
+		{
+			var randomNum = Random.Range(-3, 3f); 
+			spawnpositioncrystalgreen = 3;
+			spawnpositioncrystalgreen = spawnpositioncrystalgreen + randomNum; //*******************Spawns a coin close to the last one [JC]
+
+			currentPos.y = spawnpositioncrystalgreen;
+			transform.position = currentPos;
+			
+			if (GameMaster.playerIsAlive)
+			{
+				Instantiate(crystalgreen, currentPos, currentRot);
+			}
+			
+			//Instantiate(blueJelly, currentPos, currentRot);
+			spawntimercrystalgreen = spawntimercrystalgreenwave;
+		}
+
+		if (spawntimerfloor < 1) 
+		{
+			currentPos.y = -1;
+			currentPos.x = 10;
+			transform.position = currentPos;
+			
+
+			Instantiate(floor, currentPos, currentRot);
+			
+			//Instantiate(blueJelly, currentPos, currentRot);
+			spawntimerfloor = spawntimerfloorwave;
+		}
+
 		if (spawntimertopcoral < 1)                             //*******************Spawns Coral [JC]
 		{
 			var randomNum = Random.Range(-0.5f, 0.5f); 
@@ -123,13 +171,24 @@ public class MovingSpawner : MonoBehaviour {
 			spawntimertopcoral = spawntimertopcoralwave;
 		}
 
+		if (spawntimerjellyswarm < 1)                             //*******************Spawns Jellyswarm [JC]
+		{
+			var randomNum = Random.Range(2, 5f);
+			spawnpositionjellyswarm = randomNum;
+			currentPos.y = spawnpositionjellyswarm;
+			transform.position = currentPos;
+			Instantiate(jellyswarm, currentPos, currentRot);
+			//Instantiate(blueJelly, currentPos, currentRot);
+			spawntimerjellyswarm = spawntimerjellyswarmwave;
+		}
+
 		if (spawntimerbluejelly < 1)                             //*******************Spawns Jellies [JC]
 		{
 			var randomNum = Random.Range(0, 7f);
 			spawnpositionbluejelly = randomNum;
 			currentPos.y = spawnpositionbluejelly;
 			transform.position = currentPos;
-			Instantiate(blueJelly, currentPos, currentRot);
+			Instantiate(bluejelly, currentPos, currentRot);
 			//Instantiate(blueJelly, currentPos, currentRot);
 			spawntimerbluejelly = spawntimerbluejellywave;
 		}
@@ -192,7 +251,7 @@ public class MovingSpawner : MonoBehaviour {
 			spawntimerpurplejellywave = randomNum;
 			randomNum = Random.Range(1000, 1200);
 			spawntimerblackjellywave = randomNum;
-			wavetime = 1200;
+			wavetime = wavelength;
 		}
 
         //spawnBounce();

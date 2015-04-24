@@ -89,13 +89,13 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>Assets\UnityVS\editor2\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
-      <HintPath>Assets\UnityVS\editor2\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
     </Reference>
     <Reference Include="UnityVS.VersionSpecific">
-      <HintPath>Assets\UnityVS\editor2\UnityVS.VersionSpecific.dll</HintPath>
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -105,11 +105,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Editor\EditorDBManager.cs" />
-    <Compile Include="Assets\Scripts\Editor\EditorUtilities.cs" />
-    <Compile Include="Assets\Scripts\Editor\MenuExtension.cs" />
-    <Compile Include="Assets\Scripts\Editor\Unit.cs" />
-    <Compile Include="Assets\Scripts\Editor\UnitEditorWindow.cs" />
+    <Compile Include="Assets\UnityVS\Editor\extension.cs" />
+    <Compile Include="Assets\UnityVS\Editor\window.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

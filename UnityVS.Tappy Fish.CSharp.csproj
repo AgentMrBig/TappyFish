@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\GreenJelly.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\PurpleJelly.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\RedJelly.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\Unit.cs" />
     <Compile Include="Assets\Scripts\ExitLevel.cs" />
     <Compile Include="Assets\Scripts\Explode.cs" />
     <Compile Include="Assets\Scripts\FadeMusic.cs" />
